@@ -23,7 +23,7 @@ export default function DamonBracesPage() {
             At Elite Smile – Faster, More Comfortable Orthodontic Treatment!
           </p>
           <p className="text-lg text-gray-200 max-w-3xl mx-auto mt-4">
-            If you're looking for a revolutionary approach to straightening teeth in [Your City], you're in the right place. At Elite Smile, we specialize in Damon System braces that deliver beautiful results in less time with greater comfort.
+            If you're looking for a revolutionary approach to straightening teeth in Cairo, you're in the right place. At Elite Smile, we specialize in Damon System braces that deliver beautiful results in less time with greater comfort.
           </p>
         </div>
       </section>

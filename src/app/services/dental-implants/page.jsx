@@ -23,7 +23,7 @@ export default function DentalImplantsPage() {
             At Elite Smile – Restore Your Smile, Confidence, and Quality of Life!
           </p>
           <p className="text-lg text-gray-200 max-w-3xl mx-auto mt-4">
-            If you're looking for a permanent solution to missing teeth in [Your City], you're in the right place. At Elite Smile, we specialize in advanced dental implant procedures that look, feel, and function just like natural teeth.
+            If you're looking for a permanent solution to missing teeth in Cairo, you're in the right place. At Elite Smile, we specialize in advanced dental implant procedures that look, feel, and function just like natural teeth.
           </p>
         </div>
       </section>
