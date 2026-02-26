@@ -10,7 +10,7 @@ export default function TeethWhiteningPage() {
       <section className="relative rounded-3xl overflow-hidden mb-16">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="/Images/protectiveLayer.jpg"
             alt="Beautiful smile"
             fill
             className="object-cover"
@@ -42,7 +42,7 @@ export default function TeethWhiteningPage() {
         </div>
         <div className="relative h-80 rounded-xl overflow-hidden">
           <Image 
-            src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="/Images/laser.jpg"
             alt="Laser teeth whitening procedure"
             fill
             className="object-cover"
@@ -56,7 +56,7 @@ export default function TeethWhiteningPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="relative h-48 rounded-lg overflow-hidden">
             <Image 
-              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80"
+              src="/Images/Clinic.jpg"
               alt="Dental consultation"
               fill
               className="object-cover"
@@ -68,7 +68,7 @@ export default function TeethWhiteningPage() {
           
           <div className="relative h-48 rounded-lg overflow-hidden">
             <Image 
-              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/Images/protectiveLayer.jpg"
               alt="Applying protective barriers"
               fill
               className="object-cover"
@@ -80,7 +80,7 @@ export default function TeethWhiteningPage() {
           
           <div className="relative h-48 rounded-lg overflow-hidden">
             <Image 
-              src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80"
+              src="/Images/laser.jpg"
               alt="Laser activation"
               fill
               className="object-cover"
@@ -140,7 +140,7 @@ export default function TeethWhiteningPage() {
       <section className="mb-20 grid md:grid-cols-2 gap-12 items-center bg-blue-50 p-8 md:p-12 rounded-2xl">
         <div className="relative h-80 rounded-xl overflow-hidden order-2 md:order-1">
           <Image 
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80"
+            src="/Images/Clinic.jpg"
             alt="Modern dental clinic"
             fill
             className="object-cover"
@@ -182,7 +182,7 @@ export default function TeethWhiteningPage() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="relative h-64 rounded-xl overflow-hidden">
             <Image 
-              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/Images/testimonel.jpg"
               alt="Happy patient"
               fill
               className="object-cover"
@@ -214,7 +214,7 @@ export default function TeethWhiteningPage() {
           </div>
           <div className="relative h-64 rounded-xl overflow-hidden">
             <Image 
-              src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/Images/teeth-whitening.jpg"
               alt="Confident smile"
               fill
               className="object-cover"
@@ -227,7 +227,7 @@ export default function TeethWhiteningPage() {
       <section className="relative rounded-3xl overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://images.unsplash.com/photo-1507525425510-56f1f2f6d4c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
+            src="/Images/testimonel.jpg"
             alt="Beautiful smile background"
             fill
             className="object-cover"

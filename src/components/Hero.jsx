@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Hero() {
   return (
     <section className="pt-32 pb-24 bg-black text-white">
@@ -21,11 +22,15 @@ export default function Hero() {
           </a>
         </div>
 
-        <img
-          src="https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg"
-          alt="Luxury Dentist"
-          className="rounded-3xl shadow-2xl"
-        />
+        <div className="relative w-full h-100 sm:h-125 lg:h-150">
+       <Image
+            src="/Images/Hero.jpg"
+            alt="Before After 1"
+            fill
+            loading="lazy"
+            className="rounded-3xl shadow-lg"
+          />
+          </div>
       </div>
     </section>
   );

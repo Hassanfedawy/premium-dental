@@ -1,5 +1,6 @@
 // app/services/dental-implants/page.jsx
 import Link from "next/link";
+import Image from "next/image";
 import { CheckBadgeIcon, ClockIcon, ShieldCheckIcon, BeakerIcon, WrenchScrewdriverIcon, HeartIcon , SparklesIcon } from '@heroicons/react/24/outline';
 
 export default function DentalImplantsPage() {
@@ -8,10 +9,12 @@ export default function DentalImplantsPage() {
       {/* Hero Section with Background Image */}
       <section className="relative rounded-3xl overflow-hidden mb-16">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+          <Image 
+            src="/Images/protectiveLayer.jpg"
             alt="Dental implant procedure"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
+            priority
           />
           <div className="absolute inset-0 bg-gradient-to-r from-teal-900/90 to-blue-900/80"></div>
         </div>
@@ -40,10 +43,11 @@ export default function DentalImplantsPage() {
           </p>
         </div>
         <div className="relative h-80 rounded-xl overflow-hidden">
-          <img 
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=2068&q=80"
+          <Image 
+            src="/Images/laser.jpg"
             alt="Dental implant structure"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
           />
         </div>
       </section>
@@ -129,10 +133,11 @@ export default function DentalImplantsPage() {
         <h2 className="text-3xl font-semibold text-gray-900 mb-8 text-center">The Implant Procedure: Step by Step</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div className="relative h-48 rounded-lg overflow-hidden">
-            <img 
-              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=2068&q=80"
+            <Image 
+              src="/Images/Clinic.jpg"
               alt="Consultation and planning"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
               <p className="text-white text-sm font-medium">1. Consultation & 3D Imaging</p>
@@ -140,10 +145,11 @@ export default function DentalImplantsPage() {
           </div>
           
           <div className="relative h-48 rounded-lg overflow-hidden">
-            <img 
-              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            <Image 
+              src="/Images/protectiveLayer.jpg"
               alt="Implant placement surgery"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
               <p className="text-white text-sm font-medium">2. Implant Placement</p>
@@ -151,10 +157,11 @@ export default function DentalImplantsPage() {
           </div>
           
           <div className="relative h-48 rounded-lg overflow-hidden">
-            <img 
-              src="https://images.unsplash.com/photo-1584017911766-451b3d0e8431?ixlib=rb-4.0.3&auto=format&fit=crop&w=2072&q=80"
+            <Image 
+              src="/Images/laser.jpg"
               alt="Healing period"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
               <p className="text-white text-sm font-medium">3. Osseointegration (Healing)</p>
@@ -162,10 +169,11 @@ export default function DentalImplantsPage() {
           </div>
           
           <div className="relative h-48 rounded-lg overflow-hidden">
-            <img 
-              src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=2080&q=80"
+            <Image 
+              src="/Images/teeth-whitening.jpg"
               alt="Final crown placement"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
               <p className="text-white text-sm font-medium">4. Crown Placement</p>
@@ -197,10 +205,11 @@ export default function DentalImplantsPage() {
           </ul>
         </div>
         <div className="relative h-80 rounded-xl overflow-hidden order-2 md:order-1">
-          <img 
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=2068&q=80"
+          <Image 
+            src="/Images/Clinic.jpg"
             alt="Modern dental implant surgery room"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
           />
         </div>
       </section>
@@ -232,10 +241,11 @@ export default function DentalImplantsPage() {
       <section className="mb-20 bg-gray-900 text-white p-8 md:p-12 rounded-2xl">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="relative h-64 rounded-xl overflow-hidden">
-            <img 
-              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            <Image 
+              src="/Images/testimonel.jpg"
               alt="Happy patient with dental implants"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
           <div>
@@ -265,10 +275,11 @@ export default function DentalImplantsPage() {
             <p className="mt-4 text-gray-600">Not sure if you qualify? Schedule a consultation – we'll evaluate your specific situation and discuss all available options.</p>
           </div>
           <div className="relative h-64 rounded-xl overflow-hidden">
-            <img 
-              src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            <Image 
+              src="/Images/teeth-whitening.jpg"
               alt="Confident smile after implants"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
         </div>
@@ -308,10 +319,11 @@ export default function DentalImplantsPage() {
       {/* Call to Action */}
       <section className="relative rounded-3xl overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1507525425510-56f1f2f6d4c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80"
+          <Image 
+            src="/Images/testimonel.jpg"
             alt="Beautiful smile background"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-teal-600/90 to-blue-600/90"></div>
         </div>
